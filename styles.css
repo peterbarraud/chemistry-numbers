@@ -36,11 +36,11 @@ body {
 button {
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 1rem 3rem 1rem 3rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .disable-button {

@@ -41,7 +41,7 @@ $( document ).ready(function() {
             $( '#first, #prev' ).prop('disabled', true).removeClass('enable-button').addClass('disable-button');
             $( '#last, #next' ).prop('disabled', false).removeClass('disable-button').addClass('enable-button');
         } else if (cursor_pos === chemistrydata.length - 1){
-            $( '#first, #prev' ).prop('disabled', false).removeClass('disable-button').addClass('ensable-button');
+            $( '#first, #prev' ).prop('disabled', false).removeClass('disable-button').addClass('enable-button');
             $( '#last, #next' ).prop('disabled', true).removeClass('enable-button').addClass('disable-button');
 
         } else {

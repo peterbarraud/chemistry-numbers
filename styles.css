@@ -1,11 +1,11 @@
 .container {
   border: 5px solid  olive;
   width: 50%;
-  height: 50%;
+  height: 70%;
   padding: 1%;
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -36,7 +36,7 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 26px;
 }
 
 .disable-button {

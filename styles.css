@@ -1,3 +1,7 @@
+body {
+  font-size: 3.5rem;
+}
+
 .container {
   border: 5px solid  olive;
   width: 50%;

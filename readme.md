@@ -1,4 +1,4 @@
-| Name  |  Symbol | Atomic Number  | Valency  |
+|   |   | Atomic Number  | Valency  |
 |---|:---:|:---:|:---:|:---:|
 |Hydrogen|H|1|1|
 |Helium|He|2|0|
@@ -35,10 +35,11 @@ Credits:
 * https://byjus.com/chemistry/periodicity-of-valence-or-oxidation-states-of-elements/
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Name  | Symbol | Atomic number | Valency |
+| --- | :---: | :---: | :---: |
+|Hydrogen|H|1|1|
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |

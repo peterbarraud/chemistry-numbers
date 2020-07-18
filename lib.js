@@ -37,8 +37,17 @@ $( document ).ready(function() {
         $( '#valency').text('Valency: ' + chemistrydata[cursor_pos].valency);
         $( '#atomicnumber').text('Atomic number: ' + chemistrydata[cursor_pos].atomicnumber);
         // some easy formatting
-        $( '#first, #prev' ).prop('disabled', cursor_pos === 0);
-        $( '#next, #last' ).prop('disabled', cursor_pos === chemistrydata.length - 1);
+        if (cursor_pos === 0){
+            $( '#first, #prev' ).prop('disabled', true).removeClass('enable-button').addClass('disable-button');
+            $( '#last, #next' ).prop('disabled', false).removeClass('disable-button').addClass('enable-button');
+        } else if (cursor_pos === chemistrydata.length - 1){
+            $( '#first, #prev' ).prop('disabled', false).removeClass('disable-button').addClass('ensable-button');
+            $( '#last, #next' ).prop('disabled', true).removeClass('enable-button').addClass('disable-button');
+
+        } else {
+            $( '#first, #prev, #last, #next' ).prop('disabled', false).removeClass('disable-button').addClass('enable-button');
+
+        }
       });
 
 });

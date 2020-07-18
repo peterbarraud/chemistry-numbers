@@ -1,7 +1,7 @@
 .container {
   border: 5px solid  olive;
-  width: 30%;
-  height: 50%;
+  width: 50%;
+  padding: 1%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -29,7 +29,6 @@
 }
 
 button {
-  background-color: #008CBA; /* blue */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -39,6 +38,9 @@ button {
   font-size: 16px;
 }
 
-div {
-  font-family: Tahoma;
+.disable-button {
+  color: #e7e7e7; /* grey */
+}
+.enable-button {
+  background-color: #008CBA; /* blue */
 }

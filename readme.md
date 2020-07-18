@@ -31,4 +31,16 @@
 |Copper|Cu|29|2, 1|
 |Zinc|Zn|30|2|
 
-Credit: https://byjus.com/chemistry/periodicity-of-valence-or-oxidation-states-of-elements/
+Credits:
+* https://byjus.com/chemistry/periodicity-of-valence-or-oxidation-states-of-elements/
+
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |

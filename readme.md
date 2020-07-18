@@ -33,3 +33,5 @@
 
 Credits:
 * https://byjus.com/chemistry/periodicity-of-valence-or-oxidation-states-of-elements/
+* http://www.lowgif.com/view.html
+* https://www.w3schools.com/css/css3_buttons.asp

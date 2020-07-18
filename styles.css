@@ -38,3 +38,7 @@ button {
   display: inline-block;
   font-size: 16px;
 }
+
+div {
+  font-family: Tahoma;
+}

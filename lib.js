@@ -34,9 +34,9 @@ $( document ).ready(function() {
     $( "#cursor_position" ).change(function() {
         cursor_pos = parseInt($( "#cursor_position" ).val());
         $( '#name').text(chemistrydata[cursor_pos].name);
-        $( '#symbol').text("Symbol: " + chemistrydata[cursor_pos].symbol);
-        $( '#valency').text('Valency: ' + chemistrydata[cursor_pos].valency);
-        $( '#atomicnumber').text('Atomic number: ' + chemistrydata[cursor_pos].atomicnumber);
+        $( '#symbol').text(chemistrydata[cursor_pos].symbol);
+        $( '#valency').text(chemistrydata[cursor_pos].valency);
+        $( '#atomicnumber').text(chemistrydata[cursor_pos].atomicnumber);
         // some easy formatting
         if (cursor_pos === 0){
             $( '#first, #prev' ).prop('disabled', true).removeClass('enable-button').addClass('disable-button');

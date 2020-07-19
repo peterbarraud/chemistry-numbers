@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="styles.css">
         <script src="lib.js"></script>
-        <meta name="version" content="1.0.2">
+        <meta name="version" content="1.0.0">
     </head>
     <body>
         <div class="container">
@@ -19,10 +19,32 @@
                     <button id='last'>&gt;&gt;</button>
                 </div>
                 <div class='elementinfo-container'>
-                    <div id='name'>name</div>
-                    <div id='symbol'>symbol</div>
-                    <div id='valency'>valency</div>
-                    <div id='atomicnumber'>atomicnumber</div>
+
+                    <table class="table">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col" colspan="2"><span id='name'>name</span></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Symbol</th>
+                            <td><span id='symbol'>symbol</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Valency</th>
+                            <td><span id='valency'>valency</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Atomic number</th>
+                            <td><span id='atomicnumber'>atomicnumber</span></td>
+                          </tr>
+                        </tbody>
+                      </table>                    
+                    
+                    
+                    
+                    
                 </div>
                 <div class='navigation-button-container'>
                     <button id='next'>&gt;</button>

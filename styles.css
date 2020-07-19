@@ -4,8 +4,8 @@ body {
 
 .container {
   border: 5px solid  olive;
-  width: 50%;
-  height: 70%;
+  /* width: displayWidth*2; */
+  /* height: 70%; */
   padding: 1%;
   position: absolute;
   left: 50%;

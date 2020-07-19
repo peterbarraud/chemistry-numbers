@@ -33,7 +33,7 @@ $( document ).ready(function() {
     $( "#cursor_position" ).change(function() {
         cursor_pos = parseInt($( "#cursor_position" ).val());
         $( '#name').text(chemistrydata[cursor_pos].name);
-        $( '#symbol').text(chemistrydata[cursor_pos].symbol);
+        $( '#symbol').text("Symbol: " + chemistrydata[cursor_pos].symbol);
         $( '#valency').text('Valency: ' + chemistrydata[cursor_pos].valency);
         $( '#atomicnumber').text('Atomic number: ' + chemistrydata[cursor_pos].atomicnumber);
         // some easy formatting

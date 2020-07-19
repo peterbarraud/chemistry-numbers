@@ -7,6 +7,7 @@ $( document ).ready(function() {
         // https://stackoverflow.com/a/31997858
         $( "#cursor_position" ).val(cursor_pos).trigger("change");
         $( '.done-waiting' ).show();
+        showversion();
     });
     // f (first)
     $( '#first' ).click(function(){
@@ -51,3 +52,14 @@ $( document ).ready(function() {
       });
 
 });
+
+showversion = () => {
+    if (window.location.href.split("?")[1]){
+        queryparts = window.location.href.split("?")[1].split('&');
+        $.each(queryparts, function(_, querypart){
+            if (querypart === 'showversion'){
+                $( '#version' ).text($('meta[name=version]').attr("content"));
+            }
+        })
+    }
+}
